@@ -1,2 +1,2 @@
-# eos-template
-Template repository to add new models to the Ersilia Model Hub
+# eos8ioa
+A simple natural product likeness score
