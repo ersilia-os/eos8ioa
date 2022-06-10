@@ -1,5 +1,7 @@
 # Natural Product score
 
+A score to distinguish between natural product (NP) and synthetic molecule (SM)
+
 | Description | Input  | Output  | Training Data | Experimental Validation |
 | ------- | --- | --- | --- | --- |
 | Generation of natural product score | SMILES | f _i_ |290000 compounds | No |
