@@ -1,4 +1,4 @@
-# Ntural-product-score
+# Natural-product-score
 
 Natural product score
 
@@ -12,4 +12,4 @@ This model is published by Peter Ertl, Silvia Roggo, & Ansgar Schuffenhauer. Nat
 Code: https://github.com/rdkit/rdkit/tree/master/Contrib/NP_Score
 
 ## History 
-- Model was dowloaded and incorporated on October 19, 2021
+- Model was downloaded and incorporated on October 19, 2021
