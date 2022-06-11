@@ -1,13 +1,13 @@
-# Natural Product score
+# Ntural-product-score
 
-A score to distinguish between natural product (NP) and synthetic molecule (SM)
+Natural product score
 
 | Description | Input  | Output  | Training Data | Experimental Validation |
 | ------- | --- | --- | --- | --- |
-| Generation of natural product score | SMILES | f _i_ |290000 compounds | No |
+| A simple score to distinguish between natural product (-like) and synthetic compounds | SMILES | f _i_ |290,000 compounds | No |
 
 ## Source code
-This model is published by Peter Ertl, Silvia Roggo, & Ansgar Schuffenhauer (2008). Natural Product-likeness Score and Its Application for Prioritization of Compound Libraries. Journal of Chemical Information and Modeling, 48(1), 68–74. doi:10.1021/ci700286x 
+This model is published by Peter Ertl, Silvia Roggo, & Ansgar Schuffenhauer. Natural Product-likeness Score and Its Application for Prioritization of Compound Libraries. *Journal of Chemical Information and Modeling*, 48(1), 68–74. DOI:ndoi:10.1021/ci700286x (2008).
 
 Code: https://github.com/rdkit/rdkit/tree/master/Contrib/NP_Score
 
