@@ -17,11 +17,12 @@
 from rdkit import Chem
 from rdkit.Chem import rdMolDescriptors
 import sys, math, gzip, pickle
+import pathlib
 import os.path
 from collections import namedtuple
 
 
-def readNPModel(filename=os.path.join(os.path.dirname(__file__), 'publicnp.model.gz')):
+def readNPModel(filename=os.path.join(pathlib.Path(os.path.dirname(__file__)).parent.parent, 'checkpoints/publicnp.model.gz')):
   """Reads and returns the scoring model,
   which has to be passed to the scoring functions."""
   print("reading NP model ...", file=sys.stderr)
