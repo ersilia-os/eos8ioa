@@ -42,7 +42,6 @@ with open(input_file, "r") as f:
 # run model
 outputs = my_model(smiles_list)
 
-print(outputs)
 
 #check input and output have the same lenght
 input_len = len(smiles_list)
