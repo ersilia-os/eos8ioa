@@ -14,7 +14,7 @@ A simple score to distinguish between natural products (-like) and synthetic com
 * Task: `Regression`
 * Output: `Score`
 * Output Type: `Float`
-* Output Shape: `Single`
+* Output Shape: `List`
 * Interpretation: Higher score indicates higher natural product likeness
 
 ## References
