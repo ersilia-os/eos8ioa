@@ -89,10 +89,9 @@ class Model(object):
             h = next(reader)
             R = []
             for r in reader:
-                R += [
-                    {"outcome": [{"nplikeness": Float(r[0]),
-                       "confidence": Float(r[1])}]}
-                ]  # <-- EDIT: Modify according to type of output (Float, String...)
+                R += [{"nplikeness": Float(r[0]),
+                       "confidence": Float(r[1])}]
+                # <-- EDIT: Modify according to type of output (Float, String...)
         meta = {"outcome": h}
         result = {"result": R, "meta": meta}
         shutil.rmtree(tmp_folder)
