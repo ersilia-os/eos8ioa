@@ -23,6 +23,11 @@ A simple score to distinguish between natural products (-like) and synthetic com
 * [Source Code](https://github.com/rdkit/rdkit/tree/master/Contrib/NP_Score)
 * Ersilia contributor: [miquelduranfrigola](https://github.com/miquelduranfrigola)
 
+## Ersilia model URLs
+* [GitHub](https://github.com/ersilia-os/eos8ioa)
+* [AWS S3](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos8ioa.zip)
+* [DockerHub](https://hub.docker.com/r/ersiliaos/eos8ioa) (AMD64, ARM64)
+
 ## Citation
 
 If you use this model, please cite the [original authors](http://pubs.acs.org/doi/abs/10.1021/ci700286x) of the model and the [Ersilia Model Hub](https://github.com/ersilia-os/ersilia/blob/master/CITATION.cff).
