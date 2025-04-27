@@ -1,0 +1,3 @@
+name,type,direction,description
+nplikeness,float,high,Natural product likeness score
+confidence,float,high,Confidence of the natural product likeness score
