@@ -42,8 +42,12 @@ Below are the **Output Columns** of the model:
 ### Resource Consumption
 - **Model Size (Mb):** `5`
 - **Environment Size (Mb):** `440`
-- **Image Size (Mb):** `400.32`
+- **Image Size (Mb):** `400.62`
 
+**Computational Performance (seconds):**
+- 10 inputs: `29.49`
+- 100 inputs: `19.32`
+- 10000 inputs: `213.53`
 
 ### References
 - **Source Code**: [https://github.com/rdkit/rdkit/tree/master/Contrib/NP_Score](https://github.com/rdkit/rdkit/tree/master/Contrib/NP_Score)
