@@ -4,6 +4,7 @@ A simple score to distinguish between natural products (-like) and synthetic com
 
 This model was incorporated on 2021-10-19.
 
+
 ## Information
 ### Identifiers
 - **Ersilia Identifier:** `eos8ioa`
@@ -13,7 +14,7 @@ This model was incorporated on 2021-10-19.
 - **Task:** `Annotation`
 - **Subtask:** `Property calculation or prediction`
 - **Biomedical Area:** `Any`
-- **Target Organism:** `Not Applicable`
+- **Target Organism:** `Any`
 - **Tags:** `Natural product`, `Drug-likeness`
 
 ### Input
