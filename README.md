@@ -2,8 +2,7 @@
 
 A simple score to distinguish between natural products (-like) and synthetic compounds. The score was calculated using an analysis of the structural features that distinguish natural products (NP) from synthetic molecules. NP structures were obtained from the CRC Dictionary of Natural products and synthetic molecules belong to an in-house collection. This method has been contributed to the RDKit package, Ersilia is simply implementing the RDKit NP\_Score.
 
-This model was incorporated on 2021-10-19.
-
+This model was incorporated on 2021-10-19.Last packaged on 2025-10-15.
 
 ## Information
 ### Identifiers
@@ -43,12 +42,12 @@ Below are the **Output Columns** of the model:
 ### Resource Consumption
 - **Model Size (Mb):** `5`
 - **Environment Size (Mb):** `457`
-- **Image Size (Mb):** `400.62`
+- **Image Size (Mb):** `484.92`
 
 **Computational Performance (seconds):**
-- 10 inputs: `29.49`
-- 100 inputs: `19.32`
-- 10000 inputs: `213.53`
+- 10 inputs: `27.01`
+- 100 inputs: `16.72`
+- 10000 inputs: `31.45`
 
 ### References
 - **Source Code**: [https://github.com/rdkit/rdkit/tree/master/Contrib/NP_Score](https://github.com/rdkit/rdkit/tree/master/Contrib/NP_Score)
