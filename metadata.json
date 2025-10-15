@@ -38,6 +38,8 @@
     "License": "BSD-3-Clause",
     "Contributor": "miquelduranfrigola",
     "Incorporation Date": "2021-10-19",
+    "Last Packaging Date": "2025-10-15",
+    "Release": "v1.0.0",
     "S3": "https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos8ioa.zip",
     "DockerHub": "https://hub.docker.com/r/ersiliaos/eos8ioa",
     "Docker Architecture": [
@@ -46,11 +48,11 @@
     ],
     "Model Size": 5.0,
     "Environment Size": 457.0,
-    "Image Size": 400.62,
-    "Computational Performance 1": 29.49,
-    "Computational Performance 2": 19.22,
-    "Computational Performance 3": 19.32,
-    "Computational Performance 4": 54.39,
-    "Computational Performance 5": 213.53,
+    "Image Size": 484.92,
+    "Computational Performance 1": 27.01,
+    "Computational Performance 2": 16.71,
+    "Computational Performance 3": 16.72,
+    "Computational Performance 4": 19.4,
+    "Computational Performance 5": 31.45,
     "Docker Pack Method": "FastAPI"
 }
