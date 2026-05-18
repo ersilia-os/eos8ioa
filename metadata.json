@@ -33,7 +33,7 @@
     ],
     "Publication Type": "Peer reviewed",
     "Publication Year": 2007,
-    "Publication": "http://pubs.acs.org/doi/abs/10.1021/ci700286x",
+    "Publication": "https://doi.org/10.1021/ci700286x",
     "Source Code": "https://github.com/rdkit/rdkit/tree/master/Contrib/NP_Score",
     "License": "BSD-3-Clause",
     "Contributor": "miquelduranfrigola",
