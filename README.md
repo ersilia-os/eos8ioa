@@ -51,7 +51,7 @@ Below are the **Output Columns** of the model:
 
 ### References
 - **Source Code**: [https://github.com/rdkit/rdkit/tree/master/Contrib/NP_Score](https://github.com/rdkit/rdkit/tree/master/Contrib/NP_Score)
-- **Publication**: [http://pubs.acs.org/doi/abs/10.1021/ci700286x](http://pubs.acs.org/doi/abs/10.1021/ci700286x)
+- **Publication**: [https://doi.org/10.1021/ci700286x](https://doi.org/10.1021/ci700286x)
 - **Publication Type:** `Peer reviewed`
 - **Publication Year:** `2007`
 - **Ersilia Contributor:** [miquelduranfrigola](https://github.com/miquelduranfrigola)
