@@ -1,7 +1,7 @@
 {
     "Identifier": "eos8ioa",
     "Slug": "natural-product-score",
-    "Status": "In maintenance",
+    "Status": "Ready",
     "Title": "Natural product score",
     "Description": "A simple score to distinguish between natural products (-like) and synthetic compounds. The score was calculated using an analysis of the structural features that distinguish natural products (NP) from synthetic molecules. NP structures were obtained from the CRC Dictionary of Natural products and synthetic molecules belong to an in-house collection. This method has been contributed to the RDKit package, Ersilia is simply implementing the RDKit NP\\_Score.",
     "Deployment": [
@@ -38,7 +38,7 @@
     "License": "BSD-3-Clause",
     "Contributor": "miquelduranfrigola",
     "Incorporation Date": "2021-10-19",
-    "Last Packaging Date": "2025-10-15",
+    "Last Packaging Date": "2026-07-06",
     "Release": "v1.0.0",
     "S3": "https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos8ioa.zip",
     "DockerHub": "https://hub.docker.com/r/ersiliaos/eos8ioa",
@@ -48,11 +48,11 @@
     ],
     "Model Size": 5.0,
     "Environment Size": 443.0,
-    "Image Size": 484.92,
-    "Computational Performance 1": 27.01,
-    "Computational Performance 2": 16.71,
-    "Computational Performance 3": 16.72,
-    "Computational Performance 4": 19.4,
-    "Computational Performance 5": 31.45,
+    "Image Size": 512.15,
+    "Computational Performance 1": 36.54,
+    "Computational Performance 2": 24.33,
+    "Computational Performance 3": 24.35,
+    "Computational Performance 4": 28.05,
+    "Computational Performance 5": 33.19,
     "Docker Pack Method": "FastAPI"
 }
