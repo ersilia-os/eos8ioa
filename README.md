@@ -21,7 +21,7 @@ This model was incorporated on 2021-10-19.Last packaged on 2025-10-15.
 - **Input Dimension:** `1`
 
 ### Output
-- **Output Dimension:** `1`
+- **Output Dimension:** `2`
 - **Output Consistency:** `Fixed`
 - **Interpretation:** Higher score indicates higher natural product likeness
 
