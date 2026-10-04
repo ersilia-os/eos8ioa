@@ -1,6 +1,6 @@
 # Natural product score
 
-A simple score to distinguish between natural products (-like) and synthetic compounds. The score was calculated using an analysis of the structural features that distinguish natural products (NP) from synthetic molecules. NP structures were obtained from the CRC Dictionary of Natural products and synthetic molecules belong to an in-house collection. This method has been contributed to the RDKit package, Ersilia is simply implementing the RDKit NP\_Score.
+Scores how closely a molecule resembles a natural product, using the measure introduced by Ertl and colleagues at Novartis. Fragment frequencies are compared between natural products and synthetic compounds, and their log-odds summed, so a positive score indicates natural-product-like chemistry and a negative one synthetic character. The method was devised to prioritise screening libraries towards natural-product space, and remains a widely used reference point precisely because it is simple and transparent.
 
 This model was incorporated on 2021-10-19.Last packaged on 2026-07-06.
 
@@ -23,7 +23,7 @@ This model was incorporated on 2021-10-19.Last packaged on 2026-07-06.
 ### Output
 - **Output Dimension:** `2`
 - **Output Consistency:** `Fixed`
-- **Interpretation:** Higher score indicates higher natural product likeness
+- **Interpretation:** Natural product likeness score where higher values indicate closer resemblance to natural products.
 
 Below are the **Output Columns** of the model:
 | Name | Type | Direction | Description |
