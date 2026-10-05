@@ -27,6 +27,9 @@ def my_model(smiles_list):
     R = []
     for smi in smiles_list:
         mol=Chem.MolFromSmiles(smi)
+        if mol is None:
+            R.append([None, None])
+            continue
         vals = scoreMolWConfidence(mol, fscore)
         R.append([vals.nplikeness, vals.confidence])
     return R
