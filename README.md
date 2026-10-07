@@ -1,6 +1,6 @@
 # Natural product score
 
-Scores how closely a molecule resembles a natural product, using the measure introduced by Ertl and colleagues at Novartis. Fragment frequencies are compared between natural products and synthetic compounds, and their log-odds summed, so a positive score indicates natural-product-like chemistry and a negative one synthetic character. The method was devised to prioritise screening libraries towards natural-product space, and remains a widely used reference point precisely because it is simple and transparent.
+Scores how closely a molecule resembles a natural product, using the Bayesian measure introduced by Ertl and colleagues at Novartis. Atom-centred fragment frequencies were compared between the CRC Dictionary of Natural Products and 290,000 synthetic compounds from an in-house collection, and their log-odds are summed, so a positive score means natural-product-like chemistry and a negative one synthetic character. Ersilia serves the implementation contributed to RDKit, which also reports how much of the molecule the reference fragment set covers.
 
 This model was incorporated on 2021-10-19.Last packaged on 2026-07-06.
 
@@ -23,7 +23,7 @@ This model was incorporated on 2021-10-19.Last packaged on 2026-07-06.
 ### Output
 - **Output Dimension:** `2`
 - **Output Consistency:** `Fixed`
-- **Interpretation:** Natural product likeness score where higher values indicate closer resemblance to natural products.
+- **Interpretation:** Natural product likeness scored from -5 to 5, with higher meaning more natural-product-like, plus a fragment-coverage confidence.
 
 Below are the **Output Columns** of the model:
 | Name | Type | Direction | Description |
