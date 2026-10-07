@@ -2,7 +2,7 @@
 
 Scores how closely a molecule resembles a natural product, using the Bayesian measure introduced by Ertl and colleagues at Novartis. Atom-centred fragment frequencies were compared between the CRC Dictionary of Natural Products and 290,000 synthetic compounds from an in-house collection, and their log-odds are summed, so a positive score means natural-product-like chemistry and a negative one synthetic character. Ersilia serves the implementation contributed to RDKit, which also reports how much of the molecule the reference fragment set covers.
 
-This model was incorporated on 2021-10-19.Last packaged on 2026-07-06.
+This model was incorporated on 2021-10-19.Last packaged on 2026-10-07.
 
 ## Information
 ### Identifiers
@@ -41,13 +41,13 @@ Below are the **Output Columns** of the model:
 
 ### Resource Consumption
 - **Model Size (Mb):** `5`
-- **Environment Size (Mb):** `443`
-- **Image Size (Mb):** `512.15`
+- **Environment Size (Mb):** `447`
+- **Image Size (Mb):** `503.99`
 
 **Computational Performance (seconds):**
-- 10 inputs: `36.54`
-- 100 inputs: `24.35`
-- 10000 inputs: `33.19`
+- 10 inputs: `27.74`
+- 100 inputs: `17.9`
+- 10000 inputs: `29.75`
 
 ### References
 - **Source Code**: [https://github.com/rdkit/rdkit/tree/master/Contrib/NP_Score](https://github.com/rdkit/rdkit/tree/master/Contrib/NP_Score)
