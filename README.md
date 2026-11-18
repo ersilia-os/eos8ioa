@@ -2,7 +2,8 @@
 
 Scores how closely a molecule resembles a natural product, using the Bayesian measure introduced by Ertl and colleagues at Novartis. Atom-centred fragment frequencies were compared between the CRC Dictionary of Natural Products and 290,000 synthetic compounds from an in-house collection, and their log-odds are summed, so a positive score means natural-product-like chemistry and a negative one synthetic character. Ersilia serves the implementation contributed to RDKit, which also reports how much of the molecule the reference fragment set covers.
 
-This model was incorporated on 2021-10-19.Last packaged on 2026-10-07.
+This model was incorporated on 2021-10-19.
+Last packaged on 2026-10-07.
 
 ## Information
 ### Identifiers
@@ -38,6 +39,7 @@ Below are the **Output Columns** of the model:
 - **DockerHub**: [https://hub.docker.com/r/ersiliaos/eos8ioa](https://hub.docker.com/r/ersiliaos/eos8ioa)
 - **Docker Architecture:** `AMD64`, `ARM64`
 - **S3 Storage**: [https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos8ioa.zip](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos8ioa.zip)
+- **Apptainer**: [https://models-sif.s3.eu-north-1.amazonaws.com/eos8ioa_v1.sif](https://models-sif.s3.eu-north-1.amazonaws.com/eos8ioa_v1.sif)
 
 ### Resource Consumption
 - **Model Size (Mb):** `5`
